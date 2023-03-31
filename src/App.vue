@@ -10,12 +10,14 @@
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import TestComponent from './components/TestComponent.vue'
+import ScopedSass from './components/ScopedSass.vue'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
     TestComponent,
+    ScopedSass
   }
 }
 </script>
