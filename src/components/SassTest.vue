@@ -1,15 +1,18 @@
 <template>
   <div class="border__blue">
     <h1>{{ msg }}</h1>
+    <div class="background__primary">
+      Global Sass
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'TestComponent',
+  name: 'SassTest',
   data() {
     return {
-      msg: 'Scoped Sass'
+      msg: 'SassTest'
     }
   }
 }
@@ -19,6 +22,11 @@ export default {
 .border {
   &__blue {
     border: 1px solid blue;
+  }
+}
+.background {
+  &__primary {
+    background-color: $color-primary;
   }
 }
 </style>
