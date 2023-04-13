@@ -4,6 +4,8 @@
     <HelloWorld msg="Welcome to Your Vue.js App"/>
     <TestComponent/>
     <SassTest/>
+    <a href="users.html">Users Page</a><br>
+    <a href="posts.html">Posts Page</a><br>
   </div>
 </template>
 

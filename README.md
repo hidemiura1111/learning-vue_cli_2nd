@@ -22,6 +22,11 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 - vue.config.js
   - Public Path
+  - css~: global sass
+  - pages: multi-page mode
+
+Build the app in multi-page mode
+https://cli.vuejs.org/config/#pages
 
 ### Install or Update packages
 
@@ -35,4 +40,10 @@ sass-loader node-sass
 npm install --save-dev sass-loader node-sass
 or
 npm i -D sass-loader node-sass
+```
+
+html-webpack-plugin for multi-page mode
+```
+npm install --save-dev html-webpack-plugin
+
 ```
